@@ -1,20 +1,32 @@
-Fake News Detection System
-Overview
-This project detects whether a news article is fake or real using machine learning techniques.
+AI-Based Fake News Detection System
 
-Features
-- Text classification using ML
-- Fast prediction
-- Simple implementation
+Overview:
+This project uses machine learning to classify news as **Fake** or **Real** based on text input.
 
-Tech Stack
-Python, Pandas, Scikit-learn
+Problem:
+Fake news spreads quickly online and it is difficult for users to verify its authenticity.
 
-Installation
-pip install pandas scikit-learn
+Objective:
+- Detect fake and real news
+- Apply ML on text data
+- Provide quick prediction
 
- Run
+ Tech Stack:
+- Python
+- Pandas
+- Scikit-learn
+
+How It Works:
+- Text is converted into numerical form using TF-IDF
+- Logistic Regression model predicts the result
+
+Run
+pip install pandas scikit-learn  
 python app.py
 
- Usage
-Enter a news sentence and the system will predict whether it is Fake or Real.
+Output:
+User enters a news sentence → System predicts:
+- Fake News
+- Real News
+
+
