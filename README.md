@@ -29,6 +29,6 @@ User enters a news sentence → System predicts:
 - Fake News
 - Real News
 
-Author: Shivanshu Tripathi
+Author - Shivanshu Tripathi
 
 
